@@ -12,7 +12,7 @@ function jogarAdivinhacao(){
       let tentativas = 1;
       let erro = true;
 
-      let chute = parseInt(prompt(`Já pensei em um número. Qual é o seu chute?`));
+      let chute = parseInt(prompt("Já pensei em um número. Qual é o seu chute?"));
 
       if(chute==0){
         alert("Entendido! Até a próxima!");
